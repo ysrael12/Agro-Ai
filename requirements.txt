@@ -33,6 +33,10 @@ frozenlist==1.8.0
 fsspec==2025.9.0
 gitdb==4.0.12
 GitPython==3.1.45
+# Dependências do Google GenAI / LangChain (Deixando o pip resolver a versão)
+google-genai 
+google-generativeai
+google-ai-generativelanguage 
 google-api-core==2.28.1
 google-api-python-client==2.185.0
 google-auth==2.42.0
@@ -66,7 +70,7 @@ langchain-chroma==1.0.0
 langchain-classic==1.0.0
 langchain-community==0.4.1
 langchain-core==1.0.2
-langchain-google-genai==3.0.0  
+langchain-google-genai==3.0.0
 langchain-text-splitters==1.0.0
 langdetect==1.0.9
 langgraph==1.0.2
@@ -138,7 +142,7 @@ requests==2.32.5
 requests-oauthlib==2.0.0
 requests-toolbelt==1.0.0
 rich==14.2.0
-reportlab # Adicionado para PDF
+reportlab # Essencial para PDF
 rpds-py==0.28.0
 rsa==4.9.1
 safetensors==0.6.2
@@ -185,4 +189,3 @@ xxhash==3.6.0
 yarl==1.22.0
 zipp==3.23.0
 zstandard==0.25.0
-
