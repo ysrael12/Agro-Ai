@@ -1,0 +1,59 @@
+precision recall f1-score support
+
+
+
+Banana_Black_Sigatoka 1.00 0.99 0.99 70
+
+Banana_Bract_Mosaic_Virus 1.00 1.00 1.00 52
+
+Banana_Healthy 1.00 1.00 1.00 90
+
+Banana_Insect_Pest 1.00 1.00 1.00 90
+
+Banana_Moko 1.00 1.00 1.00 57
+
+Banana_Panama_Disease 0.98 1.00 0.99 43
+
+Banana_Yellow_Sigatoka 1.00 1.00 1.00 24
+
+Coconut_CCI_Caterpillars 1.00 1.00 1.00 148
+
+Coconut_CCI_Leaflets 1.00 1.00 1.00 88
+
+Coconut_Healthy 1.00 1.00 1.00 18
+
+Coconut_WCLWD_Drying 1.00 1.00 1.00 160
+
+Coconut_WCLWD_Flaccidity 1.00 1.00 1.00 158
+
+Coconut_WCLWD_Yellowing 1.00 1.00 1.00 161
+
+Mango_Anthracnose 1.00 1.00 1.00 75
+
+Mango_Bacterial_Canker 1.00 1.00 1.00 75
+
+Mango_Cutting_Weevil 1.00 1.00 1.00 75
+
+Mango_Die_Back 1.00 1.00 1.00 75
+
+Mango_Gall_Midge 1.00 1.00 1.00 75
+
+Mango_Healthy 1.00 1.00 1.00 75
+
+Mango_Powdery_Mildew 0.99 1.00 0.99 75
+
+Mango_Sooty_Mould 1.00 0.99 0.99 75
+
+Orange_Blackspot 1.00 1.00 1.00 3
+
+Orange_Canker 1.00 1.00 1.00 3
+
+Orange_Greening 1.00 1.00 1.00 3
+
+
+
+accuracy 1.00 1768
+
+macro avg 1.00 1.00 1.00 1768
+
+weighted avg 1.00 1.00 1.00 1768
