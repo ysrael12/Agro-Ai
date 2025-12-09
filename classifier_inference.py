@@ -16,7 +16,7 @@ PROJECT_NAME = 'agropragas_efficientnet_v2m_robust'
 # Caminhos (ajustados para serem resolvidos no contexto da execução do app.py)
 # Estes caminhos são relativos ao diretório onde o app.py está rodando.
 MODEL_PATH = Path(f'agropragas_efficientnet_v2m_robust_best_model.pth')
-DATASET_ROOT = Path('./combined_agropragas_dataset/train') 
+DATASET_ROOT = Path('./combined_agropragas_dataset/test') 
 # -------------------------------
 
 # Verifica se a GPU está disponível
