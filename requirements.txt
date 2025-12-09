@@ -1,3 +1,4 @@
+accelerate==1.12.0
 aiofiles==25.1.0
 aiohappyeyeballs==2.6.1
 aiohttp==3.13.2
@@ -33,11 +34,13 @@ frozenlist==1.8.0
 fsspec==2025.9.0
 gitdb==4.0.12
 GitPython==3.1.45
-# Dependências do Google GenAI / LangChain: Deixando o pip resolver
+google-ai-generativelanguage==0.6.15
 google-api-core==2.28.1
 google-api-python-client==2.185.0
 google-auth==2.42.0
 google-auth-httplib2==0.2.0
+google-genai==1.47.0
+google-generativeai==0.8.5
 googleapis-common-protos==1.71.0
 greenlet==3.2.4
 grpcio==1.76.0
@@ -67,7 +70,7 @@ langchain-chroma==1.0.0
 langchain-classic==1.0.0
 langchain-community==0.4.1
 langchain-core==1.0.2
-langchain-google-genai==3.0.0 # ESSENCIAL: Puxará o Google SDK compatível
+langchain-google-genai==3.0.0
 langchain-text-splitters==1.0.0
 langdetect==1.0.9
 langgraph==1.0.2
@@ -75,7 +78,9 @@ langgraph-checkpoint==3.0.0
 langgraph-prebuilt==1.0.2
 langgraph-sdk==0.2.9
 langsmith==0.4.38
+loguru==0.7.3
 lxml==6.0.2
+mangaba==2.0.0
 markdown-it-py==4.0.0
 MarkupSafe==3.0.3
 marshmallow==3.26.1
@@ -104,6 +109,7 @@ overrides==7.7.0
 packaging==25.0
 pandas==2.3.3
 pdfminer.six==20250506
+peft==0.18.0
 pillow==12.0.0
 posthog==5.4.0
 propcache==0.4.1
@@ -129,23 +135,25 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.2.1
 python-iso639==2025.2.18
 python-magic==0.4.27
+python-magic-bin==0.4.14
 python-oxmsg==0.0.2
 pytz==2025.2
 PyYAML==6.0.3
 RapidFuzz==3.14.1
 referencing==0.37.0
 regex==2025.10.23
+reportlab==4.4.4
 requests==2.32.5
 requests-oauthlib==2.0.0
 requests-toolbelt==1.0.0
 rich==14.2.0
-reportlab 
 rpds-py==0.28.0
 rsa==4.9.1
 safetensors==0.6.2
 scikit-learn==1.7.2
 scipy==1.16.3
 sentence-transformers==5.1.2
+sentencepiece==0.2.1
 setuptools==80.9.0
 shellingham==1.5.4
 six==1.17.0
@@ -181,6 +189,7 @@ watchfiles==1.1.1
 webencodings==0.5.1
 websocket-client==1.9.0
 websockets==15.0.1
+win32_setctime==1.2.0
 wrapt==2.0.0
 xxhash==3.6.0
 yarl==1.22.0
