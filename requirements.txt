@@ -34,13 +34,13 @@ frozenlist==1.8.0
 fsspec==2025.9.0
 gitdb==4.0.12
 GitPython==3.1.45
-google-ai-generativelanguage==0.7.0  # Versão necessária para a Langchain mais recente
+google-ai-generativelanguage==0.6.15  # REVERTIDO
 google-api-core==2.28.1
 google-api-python-client==2.185.0
 google-auth==2.42.0
 google-auth-httplib2==0.2.0
 google-genai==1.47.0
-google-generativeai==0.8.5 
+google-generativeai==0.8.5  # MANTIDO
 googleapis-common-protos==1.71.0
 greenlet==3.2.4
 grpcio==1.76.0
@@ -70,7 +70,7 @@ langchain-chroma==1.0.0
 langchain-classic==1.0.0
 langchain-community==0.4.1
 langchain-core==1.0.2
-langchain-google-genai==3.0.0  # Versão mais recente
+langchain-google-genai==2.1.12  # REBAIXADO PARA COMPATIBILIDADE
 langchain-text-splitters==1.0.0
 langdetect==1.0.9
 langgraph==1.0.2
